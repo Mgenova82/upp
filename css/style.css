@@ -245,6 +245,11 @@ body{
        .equipo{
         grid-template-columns: 1fr;
        }
+       .equipo__titulo{
+        font-size: 2rem;
+        text-align: center;
+        justify-content: center;
+    }
 }
 @media (max-width: 665px) {
     .sectionPortada{
@@ -254,7 +259,11 @@ body{
         background-repeat:no-repeat;
         width: 100%;
     }
-
+    .equipo__titulo{
+        font-size: 2rem;
+        text-align: center;
+        justify-content: center;
+    }
 }
 @media (max-width: 550px) {
     .propuestas{
@@ -271,4 +280,21 @@ body{
     }
     .intendente{
         grid-column: 1;
+}
+    .intendente h1{
+        font-size: 2.5rem;
+    }
+    .cargo{
+        font-size: .8rem;
+    }
+    .cargo__suplente{
+        font-size: .5rem;
+    }
+    .li__nombre{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .equipo{
+        min-width: 15rem;
+    }
 }
