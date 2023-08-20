@@ -129,7 +129,7 @@ body{
         }
        
 }
-@media (max-width: 360px) {
+@media (max-width: 665px) {
     .sectionPortada{
         background-image: url(/assets/fondo_cel.png);
         background-position: center;
