@@ -67,9 +67,9 @@ body{
     transition: clip-path .5s;
 }
 .nav__items:hover{
-    --clippy: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-
+    --clippy:polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
+
 .nav__label, .nav__input{
     display: none;
 }
@@ -81,6 +81,14 @@ body{
     margin: 0 auto;
     width: 90%;
     height: 100vh;
+}
+.sectionPortadap{
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    margin: 0 auto;
+    width: 90%;
+    height: 3rem;
 }
 .footer{
     background-color: #0981b4;
@@ -109,6 +117,7 @@ body{
     text-align: center;
     background-color: #D9D9D9;
 }
+
 .propuestas{
     width: 90%;
     margin: 0 auto;
@@ -224,7 +233,7 @@ body{
        .nav__input:checked + .nav__menu{
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
        }
-       .logoFoot__png{
+      .logoFoot__png{
         width: 4rem;
          }
          .foot__logo{
