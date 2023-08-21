@@ -129,18 +129,25 @@ body{
 }
 .propuestas__tarjeta h2{
     text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 .propuestas__tarjeta p{
     width: 90%;
     text-indent: 10%;
+    text-align: justify;
 }
 .propuestas__tarjeta{
     width: 90%rem;
-    border: 1px solid black;
+    border-top: 1px solid rgb(189, 189, 189);
+    border-left: 1px solid rgb(189, 189, 189);
+    border-right: 1px solid goldenrod;
+    border-bottom: 1px solid goldenrod;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 5px 7px 7px 2px #0981b4;
 }
 .div__equipo{
     
@@ -262,11 +269,11 @@ body{
 }
 @media (max-width: 665px) {
     .sectionPortada{
-        background-image: url(/assets/fondo_cel.png);
+        background-image: url(/assets/fondo.png);
         background-position: center;
         background-size:cover;
         background-repeat:no-repeat;
-        width: 100%;
+        width: 90%;
     }
     .equipo__titulo{
         font-size: 2rem;
@@ -305,5 +312,17 @@ body{
     }
     .equipo{
         min-width: 15rem;
+    }
+}
+
+@media (max-width:340px ) {
+    .sectionPortada{
+    background-image: url(/assets/fondo_cel.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    }
+    .propuestas__tarjeta h2{
+        font-size: 1.3rem;
     }
 }
