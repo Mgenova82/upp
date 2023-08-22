@@ -170,7 +170,7 @@ body{
 .carrousel::after{
     position: absolute;
     top: 0;
-    width: 200px;
+    width: 250px;
     height: 100%;
     content: "";
     z-index: 2;
@@ -369,7 +369,7 @@ body{
     }
     .intendente{
         grid-column: 1;
-}
+    }
     .intendente h1{
         font-size: 2.5rem;
     }
@@ -385,6 +385,18 @@ body{
     }
     .equipo{
         min-width: 15rem;
+    }
+    .carrousel::before, 
+    .carrousel::after{
+        position: absolute;
+        top: 0;
+        width: 50px;
+        height: 100%;
+        content: "";
+        z-index: 2;
+    }
+    .carrousel:active .carrousel__slider{
+        animation-play-state: paused;
     }
 }
 
