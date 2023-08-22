@@ -18,8 +18,6 @@ body{
     background-color: #D9D9D9;
     width: 100%;
     height: 3.125rem;
-}
-.nav{
     position: fixed;
 }
 .logo__png{
@@ -32,15 +30,17 @@ body{
     margin-left: 1.5;
     align-items: center;
     line-height: .75rem;
+    text-decoration: none;
 }
 .nav__logo{
     font-size: .75rem;
+    color: black;
 }
 .nav__container{
     display: flex;
     height: 100%;
     width: 90%;
-    margin: 0 auto;
+    margin-bottom: 2rem;
     justify-content: space-between;
     align-items: center;
 }
@@ -111,6 +111,7 @@ body{
 }
 .separador{
     margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
     font-size: 1rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -138,17 +139,37 @@ body{
     text-align: justify;
 }
 .propuestas__tarjeta{
-    width: 90%rem;
+    width: 90%;
     border-top: 1px solid rgb(189, 189, 189);
     border-left: 1px solid rgb(189, 189, 189);
     border-right: 1px solid goldenrod;
     border-bottom: 1px solid goldenrod;
     border-radius: 5px;
+    box-shadow: 5px 7px 7px 2px #0981b4;
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 5px 7px 7px 2px #0981b4;
 }
+.carrousel{
+    display: flex;
+    width: 600px;
+    height: 430px;
+    margin: 0 auto;
+}
+.carrousel img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .7;
+    transition: .5s ease;
+}
+.carrousel img:hover{
+    cursor: crosshair;
+    width: 950px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
 .div__equipo{
     
     background-color: #10395B;
@@ -213,6 +234,31 @@ body{
 }
 .logo__equipo{
     width: 7rem;
+}
+.formulario{
+    margin: 0 auto;
+    min-width: 15rem;
+    max-width: 70%;
+    padding: 1.5rem;
+    border-top: 1px solid rgb(189, 189, 189);
+    border-left: 1px solid rgb(189, 189, 189);
+    border-right: 1px solid goldenrod;
+    border-bottom: 1px solid goldenrod;
+    border-radius: 5px;
+    box-shadow: 5px 7px 7px 2px #0981b4;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.titulo__form{
+    grid-column: 1/3;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.boton{
+    grid-column: 1/3;
+    width: 10rem;
+    justify-content: center;
+    
 }
 @media (max-width: 768px) {
        .nav__label{
