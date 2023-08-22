@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Union Por Pellegrini</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -71,19 +72,39 @@
             <div id="equipo__lnk" class="separador">
              <h1>EQUIPO</h1>
             </div>
-        <div class="carrousel">
-            <section class="carrousel__slider">
-                <img src="./assets/1.jpg" alt="equipo union por pellegrini">
-                <img src="./assets/2.jpg" alt="equipo union por pellegrini">
-                <img src="./assets/3.jpg" alt="equipo union por pellegrini">
-                <img src="./assets/4.jpeg" alt="equipo union por pellegrini">
+        <div class="div__galeria">
+            <h1>TU EQUIPO</h1>
+            <span class="linea"></span>
+            <section class="galeria" id="galeriaid">
+                <a href="#image1"><img src="./assets/1.jpg" alt="equipo"></a>
+                <a href="#image2"><img src="./assets/2.jpg" alt="equipo"></a>
+                <a href="#image3"><img src="./assets/3.jpg" alt="equipo"></a>
+                <a href="#image4"><img src="./assets/4.jpeg" alt="equipo"></a>    
             </section>
-            <section class="carrousel__slider">
-                <img src="./assets/1.jpg" alt="equipo union por pellegrini">
-                <img src="./assets/2.jpg" alt="equipo union por pellegrini">
-                <img src="./assets/3.jpg" alt="equipo union por pellegrini">
-                <img src="./assets/4.jpeg" alt="equipo union por pellegrini">
-            </section>
+            <article class="light__box" id="image1">
+                <a href="#image4" class="next"><<</a>
+                <img src="/assets/1.jpg" alt="">
+                <a href="#image2" class="next">>></a>
+                <a href="#galeriaid" class="close">X</a>
+            </article>
+            <article class="light__box" id="image2">
+                <a href="#image1" class="next"><<</a>
+                <img src="/assets/2.jpg" alt="">
+                <a href="#image3" class="next">>></a>
+                <a href="#galeriaid" class="close">X</a>
+            </article>
+            <article class="light__box" id="image3">
+                <a href="#image2" class="next"><<</a>
+                <img src="/assets/3.jpg" alt="">
+                <a href="#image4" class="next">>></a>
+                <a href="#galeriaid" class="close">X</a>
+            </article>
+            <article class="light__box" id="image4">
+                <a href="#image3" class="next"><<</a>
+                <img src="/assets/4.jpeg" alt="">
+                <a href="#image1" class="next">>></a>
+                <a href="#galeriaid" class="close">X</a>
+            </article>
         </div>    
         <div class="div__equipo">
             <section class="equipo">  
