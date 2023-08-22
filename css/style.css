@@ -150,24 +150,28 @@ body{
     flex-direction: column;
     align-items: center;
 }
+@keyframes Slide {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100% );
+    }
+}
+
 .carrousel{
-    display: flex;
-    width: 600px;
-    height: 430px;
-    margin: 0 auto;
+    overflow: hidden;
+    padding: 3rem 0;
+    background: #0981b4;
+    white-space: nowrap;
 }
-.carrousel img{
-    width: 0px;
-    flex-grow: 1;
-    object-fit: cover;
-    opacity: .7;
-    transition: .5s ease;
+.carrousel__slider{
+    display: inline-block;
+    animation: 20s Slide infinite linear;
 }
-.carrousel img:hover{
-    cursor: crosshair;
-    width: 950px;
-    opacity: 1;
-    filter: contrast(120%);
+.carrousel__slider img{
+    height:250px;
+    margin: 0 2rem;
 }
 
 .div__equipo{
