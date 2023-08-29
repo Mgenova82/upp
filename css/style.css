@@ -92,16 +92,18 @@ body{
     height: 3rem;
 }
 .footer{
-    background-color: #0981b4;
+    display: grid;
+    grid-template-row: repeat(2, 1fr) ;
+    background-color: #4682b4;
     width: 100%;
-    height: 8rem;
+    height: 10rem;
 }
 .logoFoot__png{
-    width: 5rem;
+    width: 3rem;
 }
 .foot__logo{
-    font-size: 2.3rem;
-    font-weight: 700;
+    font-size: 1.7rem;
+    font-weight: 600;
 }
 .logo__footer{
     display: flex;
@@ -109,6 +111,23 @@ body{
     height: 100%;
     align-items: center;
     line-height: .75rem;
+}
+.redes{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    gap: 2rem;
+}
+.redes__icono{
+    width: 1rem;
+}
+.redes__red{
+   align-items: center;
+}
+.redes__red a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
 }
 .separador{
     margin-top: 1.5rem;
@@ -146,9 +165,15 @@ body{
     margin-top: 2rem;
     width: 8rem;
 }
+li{
+    list-style: none;
+    align-items: center;
+    justify-content: left;
+}
+.propuestas__tarjeta__datos img{
+    width: .45rem;
+}
 .propuestas__tarjeta__datos{
-    list-style-position:inside;
-    list-style-type: disc;
     width: 90%;
     text-indent: 10%;
     text-align: justify;
@@ -201,7 +226,7 @@ body{
 .galeria img{
     width: 100%;
     vertical-align: top;
-    height: 300px;
+    height: 100%;
     object-fit: cover;
     transition: transform 0.5s;
 }
@@ -225,7 +250,7 @@ body{
 }
 .light__box img{
     width: 75vw;
-    max-height: 70vh ;
+    max-height: 90vh ;
 }
 .light__box:target{
     transform: scale(1);
@@ -345,15 +370,15 @@ body{
     
 }
 @media (max-width: 768px) {
-       .nav__label{
+    .nav__label{
             display: block;
             cursor: pointer;
-       }
-       .propuestas{
+    }
+    .propuestas{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-       }
-       .nav__menu{
+    }
+    .nav__menu{
             position: fixed;
             top: 50px;
             bottom: 0rem;
@@ -366,11 +391,11 @@ body{
             align-items:center;
             clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
             
-       }
-       .nav__input:checked + .nav__menu{
+    }
+    .nav__input:checked + .nav__menu{
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-       }
-      .logoFoot__png{
+    }
+    .logoFoot__png{
         width: 4rem;
          }
          .foot__logo{
