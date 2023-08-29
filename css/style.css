@@ -138,14 +138,13 @@ body{
     text-align: center;
     background-color: #D9D9D9;
 }
-
 .propuestas{
     width: 90%;
     margin: 0 auto;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 }
 .propuestas__tarjeta h2{
@@ -478,6 +477,13 @@ li{
     }
     .carrousel:active .carrousel__slider{
         animation-play-state: paused;
+    }
+    .redes{
+        display: grid;
+        grid-template-columns: 1, 1fr;
+        align-items: top;
+        justify-content: center;
+        gap: 0rem;
     }
 }
 
