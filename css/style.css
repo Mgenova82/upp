@@ -147,13 +147,15 @@ body{
     grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 }
-.propuestas__tarjeta h2{
-    text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+.propuestas__tarjeta__encabezado{
+    height: 25rem;
+    display: grid;
+    grid-template-rows: 30%, 20%, 50%;
+    justify-items: center;
 }
+
 .propuestas__tarjeta__imagen{
-    margin-top: 2rem;
+    margin-top: 1rem;
     width: 8rem;
 }
 li{
