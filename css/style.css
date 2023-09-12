@@ -449,6 +449,17 @@ li{
        .propuestas__tarjeta{
         min-width: 15rem;
        }
+       .propuestas__tarjeta__imagen{
+        margin-top: 1.5rem;
+        height: 7.5rem;
+    }
+    .propuestas__tarjeta__imagen_habitat{
+        margin-top: 1.5rem;
+        width: 7rem;
+    }
+       .propuestas__tarjeta h2{
+        font-size: 1.2rem;
+        }
        .equipo__titulo{
         font-size: 2rem;
         text-align: center;
@@ -502,6 +513,6 @@ li{
     background-repeat: no-repeat;
     }
     .propuestas__tarjeta h2{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 }
