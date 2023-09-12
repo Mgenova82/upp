@@ -440,9 +440,13 @@ li{
         text-align: center;
         justify-content: center;
     }
+    .propuestas{
+        width: 90%;
+    }
 }
 @media (max-width: 550px) {
     .propuestas{
+        width: 100%;
         display: grid;
         grid-template-columns: 1fr;
        }
@@ -514,5 +518,8 @@ li{
     }
     .propuestas__tarjeta h2{
         font-size: 1.2rem;
+    }
+    .propuestas{
+        width: 100%;
     }
 }
