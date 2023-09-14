@@ -138,8 +138,23 @@ body{
     text-align: center;
     background-color: #D9D9D9;
 }
+
+.propuestas__tarjeta__link{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.tarjeta__link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15rem;
+    border: 3px solid #0981b4;
+    border-radius: 8%;
+    gap: 1.5rem;
+}
 .propuestas{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -148,16 +163,29 @@ body{
     justify-items: center;
     gap: 2rem;
 }
+.propuestas__principal{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
 .propuestas__tarjeta__encabezado{
     display: grid;
     grid-template-rows: 30%, 20%, 50%;
     justify-items: center;
+    height: 25rem;
     gap: 1rem;
 }
-
 .propuestas__tarjeta__imagen{
     margin-top: 1.5rem;
     height: 8.5rem;
+    max-width: 12rem;
 }
 .propuestas__tarjeta__imagen_habitat{
     margin-top: 1.5rem;
@@ -191,15 +219,23 @@ li{
 }
 .propuestas__tarjeta{
     width: 90%;
-    border-top: 1px solid rgb(189, 189, 189);
+    /*border-top: 1px solid rgb(189, 189, 189);
     border-right: 1px solid goldenrod;
     border-left: 1px solid rgb(189, 189, 189);
     border-bottom: 1px solid goldenrod;
     border-radius: 5px;
-    box-shadow: 5px 7px 7px 2px #0981b4;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    box-shadow: 5px 7px 7px 2px #0981b4;*/
+    border: 3px solid #0981b4;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    align-items: top;
+}
+.propuestas__tarjeta__encabezado h2{
+    text-align: center;
+}
+.salud{
+    margin-top: 3rem;
 }
 .div__galeria h1{
     font-weight: 750;
@@ -452,6 +488,9 @@ li{
        }
        .propuestas__tarjeta{
         min-width: 15rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
        }
        .propuestas__tarjeta__imagen{
         margin-top: 1.5rem;
@@ -463,6 +502,8 @@ li{
     }
        .propuestas__tarjeta h2{
         font-size: 1.2rem;
+        text-align: center;
+        text-wrap: wrap;
         }
        .equipo__titulo{
         font-size: 2rem;
@@ -516,10 +557,22 @@ li{
     background-size: contain;
     background-repeat: no-repeat;
     }
+    .propuestas__tarjeta__encabezado{
+        margin-bottom: 2.5rem;
+    }
+    .propuestas__tarjeta{
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+    }
     .propuestas__tarjeta h2{
         font-size: 1.2rem;
     }
     .propuestas{
         width: 100%;
     }
+    .propuestas__tarjeta__datos{
+        text-align: left;
+    }
+    
 }
