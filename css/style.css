@@ -440,6 +440,9 @@ li{
     
 }
 @media (max-width: 768px) {
+    .propuestas__tarjeta__encabezado{
+        height: auto;
+    }
     .nav__label{
             display: block;
             cursor: pointer;
