@@ -138,7 +138,20 @@ body{
     text-align: center;
     background-color: #D9D9D9;
 }
-
+.propuestas__tarjeta_unificadora{
+    width: 90%;
+    border: 5px solid #557944;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1, 85%;
+}
+.propuestas__tarjeta_unificadora p{
+    text-align: center;
+    font-style: italic;
+    font-size: 1rem;
+    width: 80%;
+    margin-bottom: 1rem;
+}
 .propuestas__tarjeta__link{
     text-decoration: none;
     color: black;
@@ -146,12 +159,31 @@ body{
 }
 .tarjeta__link{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 15rem;
+    flex-direction: column;3    align-items:center;
+    justify-content: space-between;
+    height: 14rem;
+    width: 14rem;
     border: 3px solid #0981b4;
     border-radius: 8%;
     gap: 1.5rem;
+    transition: .7s;
+    background-color: #dee9f2;
+}
+.propuesta__unificadora{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 4rem;
+    padding-bottom: 1.5rem;
+    display: grid;
+    grid-template-columns: 1, 80%;
+    justify-items: center;
+    gap: 2rem;
+}
+.unificadora{
+    border: 5px solid #557944;
+}
+.tarjeta__link:hover{
+    transform: scale(1.2);
 }
 .propuestas{
     width: 90%;
@@ -169,7 +201,7 @@ body{
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: row;   
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -179,7 +211,7 @@ body{
     display: grid;
     grid-template-rows: 30%, 20%, 50%;
     justify-items: center;
-    height: 25rem;
+    height: auto;
     gap: 1rem;
 }
 .propuestas__tarjeta__imagen{
@@ -219,17 +251,10 @@ li{
 }
 .propuestas__tarjeta{
     width: 90%;
-    /*border-top: 1px solid rgb(189, 189, 189);
-    border-right: 1px solid goldenrod;
-    border-left: 1px solid rgb(189, 189, 189);
-    border-bottom: 1px solid goldenrod;
-    border-radius: 5px;
-    box-shadow: 5px 7px 7px 2px #0981b4;*/
     border: 3px solid #0981b4;
     border-radius: 15px;
     display: grid;
-    grid-template-columns: 35% 65%;
-    align-items: top;
+    grid-template-columns: 35% 65%;  
 }
 .propuestas__tarjeta__encabezado h2{
     text-align: center;
