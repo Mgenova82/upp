@@ -211,8 +211,12 @@ body{
     display: grid;
     grid-template-rows: 30%, 20%, 50%;
     justify-items: center;
-    height: auto;
+    align-items:flex-start;
+    height: 25rem;
     gap: 1rem;
+}
+.encabezado__unificadora{
+    height: auto;
 }
 .propuestas__tarjeta__imagen{
     margin-top: 1.5rem;
