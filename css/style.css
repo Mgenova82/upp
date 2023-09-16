@@ -106,6 +106,8 @@ body{
     font-weight: 600;
 }
 .logo__footer{
+    text-decoration: none;
+    color: black;
     display: flex;
     justify-content: center;
     height: 100%;
@@ -138,6 +140,15 @@ body{
     text-align: center;
     background-color: #D9D9D9;
 }
+.elegi{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 85%;
+    justify-items: right;
+}
+.imagen__elegi{
+    width: 13rem;
+}
 .propuestas__tarjeta_unificadora{
     width: 90%;
     border: 5px solid #557944;
@@ -150,7 +161,6 @@ body{
     font-style: italic;
     font-size: 1rem;
     width: 80%;
-    margin-bottom: 1rem;
 }
 .propuestas__tarjeta__link{
     text-decoration: none;
@@ -158,16 +168,20 @@ body{
     text-align: center;
 }
 .tarjeta__link{
-    display: flex;
-    flex-direction: column;3    align-items:center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-rows: 95% 15%;
+    align-items:center ;
+    justify-items: auto;
     height: 14rem;
     width: 14rem;
     border: 3px solid #0981b4;
     border-radius: 8%;
-    gap: 1.5rem;
+    
     transition: .7s;
     background-color: #dee9f2;
+}
+.tarjeta__link h2{
+    font-size: 1.2rem;
 }
 .propuesta__unificadora{
     width: 90%;
@@ -580,6 +594,9 @@ li{
         justify-content: center;
         gap: 0rem;
     }
+    .imagen__elegi{
+        width: 12rem;
+    }
 }
 
 @media (max-width:340px ) {
@@ -606,5 +623,13 @@ li{
     .propuestas__tarjeta__datos{
         text-align: left;
     }
-    
+    .foot__logo{
+        font-size: 1.1rem ;
+    }
+    .logoFoot__png{
+        width: 3rem
+    }
+    .imagen__elegi{
+        width: 10rem;
+    }
 }
