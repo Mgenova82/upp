@@ -147,9 +147,11 @@ body{
     line-height: 3rem;
     bottom: 1.5rem;
     right: 1.5rem;
+    transition: .7s;
 }
 .btn_wsp:hover{
     text-decoration: none;
+    transform: scale(1.2);
 }
 .elegi{
     width: 100%;
@@ -187,7 +189,6 @@ body{
     width: 14rem;
     border: 3px solid #0981b4;
     border-radius: 8%;
-    
     transition: .7s;
     background-color: #dee9f2;
 }
