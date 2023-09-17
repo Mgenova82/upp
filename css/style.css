@@ -461,6 +461,9 @@ li{
     
 }
 @media (max-width: 768px) {
+    .logo__union{
+        margin-left: 3rem;
+    }
     .propuestas__tarjeta__encabezado{
         height: auto;
     }
@@ -534,6 +537,9 @@ li{
     }
 }
 @media (max-width: 550px) {
+    .logo__union{
+        margin-left: 1.5rem;
+    }
     .propuestas{
         width: 100%;
         display: grid;
