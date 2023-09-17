@@ -142,16 +142,11 @@ body{
 }
 .btn_wsp{
     position: fixed;
-    width: 3rem;
-    height: 3rem;
-    line-height: 3rem;
-    bottom: 1.5rem;
-    right: 1.5rem;
-    transition: .7s;
-}
-.btn_wsp:hover{
-    text-decoration: none;
-    transform: scale(1.2);
+    width: 3.5rem;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    bottom: 1.8rem;
+    right: 1.8rem;
 }
 .elegi{
     width: 100%;
