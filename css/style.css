@@ -140,6 +140,17 @@ body{
     text-align: center;
     background-color: #D9D9D9;
 }
+.btn_wsp{
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    bottom: 1.5rem;
+    right: 1.5rem;
+}
+.btn_wsp:hover{
+    text-decoration: none;
+}
 .elegi{
     width: 100%;
     display: grid;
