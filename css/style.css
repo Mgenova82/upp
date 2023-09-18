@@ -437,6 +437,15 @@ li{
 }
 .multimedia{
     width: 90%;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    flex-direction: row;   
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
 @media (max-width: 768px) {
     .logo__union{
