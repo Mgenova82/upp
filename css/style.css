@@ -242,7 +242,7 @@ body{
 .propuestas__tarjeta__imagen{
     margin-top: 1.5rem;
     height: 8.5rem;
-    max-width: 12rem;
+    width: 12rem;
 }
 .propuestas__tarjeta__imagen_habitat{
     margin-top: 1.5rem;
