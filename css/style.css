@@ -142,12 +142,13 @@ body{
 }
 .btn_wsp{
     position: fixed;
-    width: 3.5rem;
-    height: 3.5rem;
-    line-height: 3.5rem;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
     bottom: 1.8rem;
     right: 1.8rem;
 }
+
 .elegi{
     width: 100%;
     display: grid;
