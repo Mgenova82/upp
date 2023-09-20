@@ -13,14 +13,15 @@ body{
 .columnas{
     width: 80%;
     margin: 4em auto;
-
+    justify-items: left;
     button{
         border-radius: 5%;
         border: none;
         outline: none;
         padding: 1em 1.5em;
         font-size: 1rem;
-        margin-top: 2em;
+        margin-left: 3rem;
+        margin-bottom: 1rem;
         cursor: pointer;
         background: #41B9EB;
         color: white;
@@ -32,11 +33,6 @@ body{
             background: #148abd;
         }
     }
-}
-.img__articulo{
-    margin-top: 0;
-    margin-left: 1rem;
-    width: 20rem;
 }
 .overlay{
     opacity: 1;
@@ -81,12 +77,11 @@ body{
 .share .overlay{
     display: none;
 }
-.opacidad{
-    background: black;
-}
 .articulo{
     margin-bottom: 2rem;
-    border-top: solid 3px #148abd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     img{
         filter: brightness(70%);
         width: 100%;
@@ -97,11 +92,33 @@ body{
         text-indent: 2%;
     }
     p{
-        text-indent: 5%;
+        text-indent: 1%;
         text-align: justify;
     }
+}
+.titulo__articulo{
+    font-size: 3rem;
+    text-align: justify;
+    border-top: solid 3px #148abd;
+    padding-top: 1rem;
 }
 .capital{
     font-size: 150%;
     font-weight: 500;
+}
+.parrafo{
+    width: 90%;
+    min-width: 15rem;
+    height: auto;
+    padding: 1.5rem;
+    font-size: .9rem;
+    line-height: 1.4;
+    background-color: #dee9f2;
+    img{
+        width: 15rem;
+        border-radius: 5%;
+        float: left;
+        margin-right: 1rem;
+        filter: brightness(70%);
+    }
 }
