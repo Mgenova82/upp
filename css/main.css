@@ -131,8 +131,12 @@ body {
   z-index: 0;
 }
 
-@media (max-width: 530px) {
+@media (max-width: 470px) {
+  .columnas {
+    width: 95%;
+  }
   .parrafo img {
     float: none;
+    width: 90%;
   }
 }/*# sourceMappingURL=main.css.map */
