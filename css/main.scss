@@ -123,3 +123,11 @@ body{
         z-index: 0;
     }
 }
+@media (max-width:530px){
+    .parrafo{
+        img{
+            float:none;
+            
+        }
+    }
+}

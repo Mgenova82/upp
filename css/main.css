@@ -129,4 +129,10 @@ body {
   margin-right: 1rem;
   filter: brightness(70%);
   z-index: 0;
+}
+
+@media (max-width: 530px) {
+  .parrafo img {
+    float: none;
+  }
 }/*# sourceMappingURL=main.css.map */
