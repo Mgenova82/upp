@@ -93,7 +93,7 @@ body{
 }
 .footer{
     display: grid;
-    grid-template-row: repeat(2, 1fr) ;
+    grid-template-rows: repeat(2, 1fr);
     background-color: #4682b4;
     width: 100%;
     height: 10rem;
@@ -449,38 +449,7 @@ li{
     gap: 2rem;
 }
 /*Novedades*/
-.columnas{
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-items: center;
-    margin: 0 auto;
-}
-.articulo{
-    margin-top: 1.5rem;
-    border-top: 3px solid #0981b4; ;
-}
-.img__articulo{
-    width: 15rem;
-    margin-right: 5rem;
-}
-.compartir{
-    text-decoration: none;
-    color: black;
-}
-.icono__art{
-    width: 2.5rem;
-}
-.contenedor__compartir{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: left;
-    gap: 2rem;
-    margin-left: 2rem;
-    margin-top: 2rem;
-}
+
 @media (max-width: 768px) {
     .logo__union{
         margin-left: 3rem;

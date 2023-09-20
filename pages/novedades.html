@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Union Por Pellegrini</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
     <header>
@@ -41,23 +42,51 @@
                             Gestiones Concretadas<br></br>
                         </h2>
                         <p>
-                            <img class="img__articulo" src="../assets/novedades/art1.png" hspace="5" vspace="5" style="float: right;"/>
+                            <img class="img__articulo" src="../assets/novedades/art1.png" hspace="5" vspace="5" style="float: left;"/>
                             En el día de ayer recibimos la visita de Néstor Álvarez - Director del ENOHSA (Ente Nacional de Obras Hídricas de Saneamiento).<br></br>
                             En esta oportunidad se entregó a la Cooperativa de Agua local la 'No Objeción Financiera' para licitar la construcción de 3 Nuevas Perforaciones de Agua Potable para Pellegrini.<br></br>
                             Todo ello en el marco de solicitudes y gestiones que se comenzaron en el año 2021 con Bruno y el Ministerio de Obras Públicas Nacional.<br></br>
                             Esta obra comprende una inversión de $174 millones para el Estado Nacional, resolviendo de esta forma una demanda actual, urgente y futura de agua que la cooperativa local buscaba resolver desde hacía tiempo.<br></br>
                             Sabemos las dificultades que afrontan las cooperativas locales que brindan este servicio al momento de invertir en infraestructura, volviéndose muy cuesta arriba poder arrimar a estos montos para realizar dichos pozos. Por eso queremos reconocer y agradecer a Néstor Álvarez por acompañarnos en esta solicitud y gestión tan importante para el distrito.
                         </p>
-                        <div class="contenedor__compartir">
-                            <a class="compartir" href="https://www.facebook.com/sharer.php?u=https://www.unionporpellegrini.ar/pages/novedades#a1.html/">
-                                <img class="icono__art" src="../assets/square-facebook.svg" alt="">
-                            </a>
-                            <a class="compartir" href="">
-                                <img class="icono__art" src="../assets/instagram.svg" alt="">
-                            </a>
-                            <a href="../"></a>
-                        </div>
-                        </div>
+                        <button>Compartir</button>
+                    </div>
+                        
+                    <div class="overlay"></div>
+                    <div class="share">
+                        <h2>Compartir</h2>
+                        <button>Red</button>
+                        <button>Red</button>
+                        <button>Red</button>
+                       
+
+                        <script>
+                            const shareButton = document.querySelector('button');
+                            const overlay = document.querySelector('.overlay');
+                            const sharemodal = document.querySelector('.share');
+
+                            const title = window.document.tile;
+                            const url = window.document.location.href;
+
+                            shareButton.addEventListener('click', () => {
+                                if (navigator.share){
+                                    navigator.share({
+                                        title: `${title}`,
+                                        url: `${url}`
+                                    }).then(() => {
+                                        console.log('Gracias por compartir');
+                                    })
+                                    .catch(console.error);
+                                } else {
+                                    overlay.classList.add('show-share');
+                                    sharemodal.classList.add('show-share');
+                                }
+                            })
+                            overlay.addEventListener('click', () => {
+                                overlay.classList.remove('show-share');
+                                sharemodal.classList.remove('show-share');
+                            })
+                        </script>
                 </div>
             </div>
     </section>
