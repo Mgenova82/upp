@@ -109,7 +109,7 @@ body {
 }
 
 .capital {
-  font-size: 150%;
+  font-size: 120%;
   font-weight: 500;
 }
 
@@ -118,7 +118,7 @@ body {
   min-width: 15rem;
   height: auto;
   padding: 1.5rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.4;
   background-color: #dee9f2;
 }
