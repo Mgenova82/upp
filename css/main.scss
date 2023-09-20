@@ -1,3 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+@font-face {
+    font-family: Acum;
+    src: url(../fonts/AcuminVariableConcept.otf);
+}
+body{
+    font-family: acum;
+}
 .columnas{
     width: 80%;
     margin: 4em auto;
@@ -68,4 +80,28 @@
 }
 .share .overlay{
     display: none;
+}
+.opacidad{
+    background: black;
+}
+.articulo{
+    margin-bottom: 2rem;
+    border-top: solid 3px #148abd;
+    img{
+        filter: brightness(70%);
+        width: 100%;
+    }
+    h2{
+        margin-top: 1rem;
+        font-size: 2.5rem;
+        text-indent: 2%;
+    }
+    p{
+        text-indent: 5%;
+        text-align: justify;
+    }
+}
+.capital{
+    font-size: 150%;
+    font-weight: 500;
 }
