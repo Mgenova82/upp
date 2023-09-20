@@ -128,4 +128,5 @@ body {
   float: left;
   margin-right: 1rem;
   filter: brightness(70%);
+  z-index: 0;
 }/*# sourceMappingURL=main.css.map */
