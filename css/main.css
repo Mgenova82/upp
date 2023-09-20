@@ -132,6 +132,9 @@ body {
 }
 
 @media (max-width: 470px) {
+  .titulo__articulo {
+    font-size: 2rem;
+  }
   .columnas {
     width: 95%;
   }
