@@ -125,7 +125,7 @@ body{
     width: 1rem;
 }
 .redes__red{
-   align-items: center;
+    align-items: center;
 }
 .redes__red a{
     text-decoration: none;
@@ -407,9 +407,9 @@ li{
     padding: .5rem;
     margin-top: 1.5rem;
     margin-bottom: .5rem;
-    background-color: #41B9EB;
+    background-color: #00bfff;
     width:fit-content;
-    color: whitesmoke;
+    color: #ffffff;
     font-size: 1rem;
 }
 .intendente h1{
@@ -426,9 +426,9 @@ li{
     padding: .5rem;
     margin-top: 1.5rem;
     margin-bottom: .5rem;
-    background-color: #148abd;
+    background-color: #51d1f6;
     width:fit-content;
-    color: whitesmoke;
+    color: #ffffff;
     font-size: 1rem;
 }
 .concejales{
