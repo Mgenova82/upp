@@ -5,7 +5,8 @@
 }
 @font-face {
     font-family: Acum;
-    src: url(../fonts/AcuminVariableConcept.otf);
+    src: url(../fonts/AcuminVariableConcept.otf) format('otf');
+    font-display: swap;
 }
 
 body{
