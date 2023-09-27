@@ -611,18 +611,6 @@ iframe{
     .equipo{
         min-width: 15rem;
     }
-    .carrousel::before, 
-    .carrousel::after{
-        position: absolute;
-        top: 0;
-        width: 50px;
-        height: 100%;
-        content: "";
-        z-index: 2;
-    }
-    .carrousel:active .carrousel__slider{
-        animation-play-state: paused;
-    }
     .redes{
         display: grid;
         grid-template-columns: 1, 1fr;
